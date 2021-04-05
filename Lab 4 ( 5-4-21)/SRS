@@ -1,0 +1,25 @@
+SRS FOR COFEE VENDING MACHINE 
+USN: 1BM19CS411
+
+
+
+i. This use case begins when the customer wants to purchase drinks. The
+customer selects the drink.
+ii. The VM monitors the number of drink cans for the selected drink brand. If the
+drink is not available [E1: Drink not in stock].
+iii. The VM verifies that the customer selected drink brand is available by
+displaying message “Brand Available”. The VM display the drinks brand and
+price.
+iv. The customer inserts the coins.
+v. The VM validates the coins. If the coin is invalid [E2: Coin not valid].
+vi. The VM accepts the coins.
+vii. The VM displays the cumulated amount of coins each time coins are entered.
+viii. The VM monitors the amount of the accepted coins inserted. If the coins are
+not enough [A1: Coin not enough].
+ix. The VM determines the total coins.
+x. The VM dispense selected drink can to customer.
+xi. The VM determine if any change should be sent back to customer.
+xii. The VM monitor the total cash held. If total cash is not enough to give a
+change [E3: Unavailable change].
+xiii. The VM display the change at panel. Then, the VM dispenses change.
+xiv. The use case ends.
