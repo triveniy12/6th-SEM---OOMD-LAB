@@ -1,0 +1,16 @@
+Software Requirements Specification of College Information System
+⦁	Purpose
+To automate and centralize the database for College Information System. We are attempting to improve our existing system that runs on pen and paper.
+⦁	Scope
+It is more efficient and convenient for the colleges. It reduces the manpower needed to perform the entire administrative tasks. Since all the work is done by computer, there is less chance of error.
+⦁	Functional Requirements
+i) Admin can login using credentials provided to him.
+ii) Student details are stored in centralized database by administrator
+iii) Admin can add and update the student information
+iv) Student can login using the credentials provided
+v) Student can check attendance status and marks
+vi) Faculty can post assignments
+⦁	Non-Functional Requirements
+i) The system should be easy to handle
+ii) System should give expected performance result
+iii) Response time should be less.
