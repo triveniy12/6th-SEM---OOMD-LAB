@@ -20,6 +20,7 @@ ix. The VM determines the total coins.
 x. The VM dispense selected drink can to customer.
 xi. The VM determine if any change should be sent back to customer.
 xii. The VM monitor the total cash held. If total cash is not enough to give a
-change [E3: Unavailable change].
+change .
+
 xiii. The VM display the change at panel. Then, the VM dispenses change.
 xiv. The use case ends.
